@@ -5,7 +5,7 @@ An iOS app that uses the Radius Networks SDK to create geofencing alerts when th
 
 The app uses native Radius Networks' region monitoring using the Proximity Kit SDK to monitor when the user enters a selected region.  Regions were manually created using the Proximity Kit developer portal. 
 
-##### In order for the app to work, one must create an a Proximity Kit at https://proximitykit.radiusnetworks.com and add the config plist to the project.
+##### In order for the app to work, one must create a Proximity Kit at https://proximitykit.radiusnetworks.com and add the config plist to the project.
 
 ######Features: 
 
