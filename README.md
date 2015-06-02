@@ -1,4 +1,4 @@
-# PullTheCord_RadiusNetworks
+# Pull the Cord! Transit Alerts using Radius Networks' Proximity Kit SDK
 An iOS app that uses the Radius Networks SDK to create geofencing alerts when the user's selected transit stop is approaching.
 
 The app uses native Radius Networks' region monitoring using the Proximity Kit SDK to monitor when the user enters a selected region.  Regions were manually created using the Proximity Kit developer portal. 
