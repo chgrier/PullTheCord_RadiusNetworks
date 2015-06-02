@@ -17,3 +17,7 @@ The app uses native Radius Networks' region monitoring using the Proximity Kit S
     - AVSpeechSynthesizer to produce synthesized speech to alert the user of their upcoming station.
 - UILocalNotification provides nofications when app is running in the background.
 - NSJSONSerialization to convert JSON-formatted station to Foundation objects for mapping.
+
+######Screen Shots:
+http://charlesgrier.com/wp-content/uploads/2015/03/RadiusNetworks_CreatingGeofence.png
+<img src="http://charlesgrier.com/wp-content/uploads/2015/03/RadiusNetworks_CreatingGeofence.png" height="400" width="200">
