@@ -8,7 +8,6 @@ The app uses native Radius Networks' region monitoring using the Proximity Kit S
 #######Features: 
 
 - Uses RPKManager to access the JSON data from the Proximity Kit SDK.
-- 
 - MapKit for mapping routes and stations.
     - MKOverlayRenderer for mapping transit lines.
     - MKAnnotationView for map callouts and annotations.
