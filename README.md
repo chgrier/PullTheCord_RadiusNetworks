@@ -20,4 +20,4 @@ The app uses native Radius Networks' region monitoring using the Proximity Kit S
 
 ######Screen Shots:
 http://charlesgrier.com/wp-content/uploads/2015/03/RadiusNetworks_CreatingGeofence.png
-<img src="http://charlesgrier.com/wp-content/uploads/2015/03/RadiusNetworks_CreatingGeofence.png" height="400" width="200">
+<img src="http://charlesgrier.com/wp-content/uploads/2015/03/RadiusNetworks_CreatingGeofence.png" height="50%" width="50%">
