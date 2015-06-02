@@ -19,5 +19,6 @@ The app uses native Radius Networks' region monitoring using the Proximity Kit S
 - NSJSONSerialization to convert JSON-formatted station to Foundation objects for mapping.
 
 ######Screen Shots:
-http://charlesgrier.com/wp-content/uploads/2015/03/RadiusNetworks_CreatingGeofence.png
 <img src="http://charlesgrier.com/wp-content/uploads/2015/03/RadiusNetworks_CreatingGeofence.png" height="50%" width="50%">
+
+Radius Network Developers Portal
