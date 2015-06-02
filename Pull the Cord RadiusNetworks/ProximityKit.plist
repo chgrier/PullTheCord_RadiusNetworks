@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PKKitName</key>
+	<string>Add your own Proximity Kit here from www.radiusnetworks.com</string>
+	<key>PKUserIdentifier</key>
+	<string>xxxx</string>
+	<key>PKUserEmail</key>
+	<string>email@email.com</string>
+	<key>PKGlobalUserIdentifier</key>
+	<string>xxxx</string>
+	<key>PKAPIToken</key>
+	<string>enter token here</string>
+	<key>PKKitURL</key>
+	<string>http://proximitykit.radiusnetworks.com/api/kits/xxxx</string>
+	<key>PKMapURL</key>
+	<string>http://proximitykit.radiusnetworks.com/api/maps/xxxx</string>
+	<key>PKMapName</key>
+	<string>Your map name here</string>
+</dict>
+</plist>

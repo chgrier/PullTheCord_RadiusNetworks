@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zig-z1-RpG">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pull the Cord! (RadiusNetworks)-->
+        <scene sceneID="Jtg-ex-Fd0">
+            <objects>
+                <viewController id="f2V-90-mtx" customClass="CHGViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eGm-VA-3wu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zfs-02-ANV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2ix-qE-gt5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LNE-wc-BNK">
+                                <rect key="frame" x="0.0" y="161" width="600" height="439"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPJ-MK-7qQ">
+                                <rect key="frame" x="26" y="101" width="548" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hmg-Hj-06i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alert set for:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRT-r5-y3n">
+                                <rect key="frame" x="16" y="82" width="558" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhd-Py-OMd">
+                                <rect key="frame" x="16" y="111" width="558" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Select station on map">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="zoomToSelectedStation:" destination="f2V-90-mtx" eventType="touchUpInside" id="X4S-TI-twW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zhd-Py-OMd" firstAttribute="leading" secondItem="yRT-r5-y3n" secondAttribute="leading" id="4Mn-9y-EdN"/>
+                            <constraint firstItem="yRT-r5-y3n" firstAttribute="leading" secondItem="2ix-qE-gt5" secondAttribute="leadingMargin" id="5hm-Hb-Rsl"/>
+                            <constraint firstItem="LNE-wc-BNK" firstAttribute="top" secondItem="eGm-VA-3wu" secondAttribute="bottom" constant="97" id="9kV-IW-hRM"/>
+                            <constraint firstItem="LNE-wc-BNK" firstAttribute="bottom" secondItem="Zfs-02-ANV" secondAttribute="top" id="CXY-Bf-QRq"/>
+                            <constraint firstItem="sPJ-MK-7qQ" firstAttribute="leading" secondItem="2ix-qE-gt5" secondAttribute="leadingMargin" constant="10" id="QW3-Pv-5A9"/>
+                            <constraint firstItem="LNE-wc-BNK" firstAttribute="leading" secondItem="2ix-qE-gt5" secondAttribute="leading" id="TkC-Y1-aWI"/>
+                            <constraint firstAttribute="trailing" secondItem="LNE-wc-BNK" secondAttribute="trailing" id="YNL-G7-eiO"/>
+                            <constraint firstItem="LNE-wc-BNK" firstAttribute="top" secondItem="sPJ-MK-7qQ" secondAttribute="bottom" constant="20" id="eol-NM-syS"/>
+                            <constraint firstItem="LNE-wc-BNK" firstAttribute="top" secondItem="yRT-r5-y3n" secondAttribute="bottom" constant="58" id="fs9-3g-oJy"/>
+                            <constraint firstItem="yRT-r5-y3n" firstAttribute="top" secondItem="eGm-VA-3wu" secondAttribute="bottom" constant="18" id="i9r-ws-O8b"/>
+                            <constraint firstItem="zhd-Py-OMd" firstAttribute="trailing" secondItem="sPJ-MK-7qQ" secondAttribute="trailing" id="jCi-oi-b4X"/>
+                            <constraint firstItem="yRT-r5-y3n" firstAttribute="trailing" secondItem="sPJ-MK-7qQ" secondAttribute="trailing" id="vAE-mU-tZi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sPJ-MK-7qQ" secondAttribute="trailing" constant="10" id="zAm-YH-wfr"/>
+                            <constraint firstItem="zhd-Py-OMd" firstAttribute="top" secondItem="yRT-r5-y3n" secondAttribute="bottom" constant="8" symbolic="YES" id="zNz-W9-Rvk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pull the Cord! (RadiusNetworks)" id="BFd-yU-4tl"/>
+                    <connections>
+                        <outlet property="arrivalMessageLabel" destination="yRT-r5-y3n" id="7fo-ra-AM2"/>
+                        <outlet property="mapView" destination="LNE-wc-BNK" id="Q5C-qu-3tS"/>
+                        <outlet property="stationMessageButton" destination="zhd-Py-OMd" id="Ace-cn-Nyv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qxc-j0-OFi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2892" y="299"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JXY-1U-Rnf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zig-z1-RpG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rQd-Mn-OT4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="f2V-90-mtx" kind="relationship" relationship="rootViewController" id="Lhq-rF-XxO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="le0-Y7-yhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2080" y="299"/>
+        </scene>
+    </scenes>
+</document>

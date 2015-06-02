@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE5DEBA31AB0A1CB00FAB32C /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB29C51AB09A0A0040C866 /* ProximityKit.framework */; };
+		BE5DEBA51AB0A29F00FAB32C /* ProximityKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE5DEBA41AB0A29E00FAB32C /* ProximityKit.plist */; };
+		BE724B681A95B5E700FF35DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE724B671A95B5E700FF35DE /* Main.storyboard */; };
+		BE724B6B1A97F89A00FF35DE /* CHGStation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE724B6A1A97F89A00FF35DE /* CHGStation.m */; };
+		BE724B6D1A9C20A000FF35DE /* busStop.png in Resources */ = {isa = PBXBuildFile; fileRef = BE724B6C1A9C20A000FF35DE /* busStop.png */; };
+		BE724B6F1A9C20B400FF35DE /* trolleyLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE724B6E1A9C20B400FF35DE /* trolleyLogo.jpg */; };
+		BE8C0E8E1A95414300C3E024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C0E8D1A95414300C3E024 /* main.m */; };
+		BE8C0E911A95414300C3E024 /* CHGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C0E901A95414300C3E024 /* CHGAppDelegate.m */; };
+		BE8C0E941A95414300C3E024 /* CHGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C0E931A95414300C3E024 /* CHGViewController.m */; };
+		BE8C0E991A95414300C3E024 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8C0E981A95414300C3E024 /* Images.xcassets */; };
+		BE8C0E9C1A95414300C3E024 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8C0E9A1A95414300C3E024 /* LaunchScreen.xib */; };
+		BE8C0EA81A95414300C3E024 /* Pull_the_Cord_RadiusNetworksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8C0EA71A95414300C3E024 /* Pull_the_Cord_RadiusNetworksTests.m */; };
+		BE8C0EB61A95436300C3E024 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8C0EB51A95436300C3E024 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE8C0EA21A95414300C3E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE8C0E801A95414300C3E024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE8C0E871A95414300C3E024;
+			remoteInfo = "Pull the Cord RadiusNetworks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE5DEBA41AB0A29E00FAB32C /* ProximityKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProximityKit.plist; sourceTree = "<group>"; };
+		BE724B671A95B5E700FF35DE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BE724B691A97F89A00FF35DE /* CHGStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGStation.h; sourceTree = "<group>"; };
+		BE724B6A1A97F89A00FF35DE /* CHGStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGStation.m; sourceTree = "<group>"; };
+		BE724B6C1A9C20A000FF35DE /* busStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busStop.png; sourceTree = "<group>"; };
+		BE724B6E1A9C20B400FF35DE /* trolleyLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trolleyLogo.jpg; sourceTree = "<group>"; };
+		BE8C0E881A95414300C3E024 /* Pull the Cord RadiusNetworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pull the Cord RadiusNetworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C0E8C1A95414300C3E024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8C0E8D1A95414300C3E024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE8C0E8F1A95414300C3E024 /* CHGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHGAppDelegate.h; sourceTree = "<group>"; };
+		BE8C0E901A95414300C3E024 /* CHGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHGAppDelegate.m; sourceTree = "<group>"; };
+		BE8C0E921A95414300C3E024 /* CHGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHGViewController.h; sourceTree = "<group>"; };
+		BE8C0E931A95414300C3E024 /* CHGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHGViewController.m; sourceTree = "<group>"; };
+		BE8C0E981A95414300C3E024 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE8C0E9B1A95414300C3E024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE8C0EA11A95414300C3E024 /* Pull the Cord RadiusNetworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pull the Cord RadiusNetworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C0EA61A95414300C3E024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8C0EA71A95414300C3E024 /* Pull_the_Cord_RadiusNetworksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pull_the_Cord_RadiusNetworksTests.m; sourceTree = "<group>"; };
+		BE8C0EB51A95436300C3E024 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BEDB29C51AB09A0A0040C866 /* ProximityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ProximityKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8C0E851A95414300C3E024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8C0EB61A95436300C3E024 /* libsqlite3.dylib in Frameworks */,
+				BE5DEBA31AB0A1CB00FAB32C /* ProximityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C0E9E1A95414300C3E024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE8C0E7F1A95414300C3E024 = {
+			isa = PBXGroup;
+			children = (
+				BE8C0E8A1A95414300C3E024 /* Pull the Cord RadiusNetworks */,
+				BE8C0EA41A95414300C3E024 /* Pull the Cord RadiusNetworksTests */,
+				BE8C0E891A95414300C3E024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8C0E891A95414300C3E024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C0E881A95414300C3E024 /* Pull the Cord RadiusNetworks.app */,
+				BE8C0EA11A95414300C3E024 /* Pull the Cord RadiusNetworksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8C0E8A1A95414300C3E024 /* Pull the Cord RadiusNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C0E8F1A95414300C3E024 /* CHGAppDelegate.h */,
+				BE8C0E901A95414300C3E024 /* CHGAppDelegate.m */,
+				BE8C0E921A95414300C3E024 /* CHGViewController.h */,
+				BE8C0E931A95414300C3E024 /* CHGViewController.m */,
+				BE724B691A97F89A00FF35DE /* CHGStation.h */,
+				BE724B6A1A97F89A00FF35DE /* CHGStation.m */,
+				BE724B671A95B5E700FF35DE /* Main.storyboard */,
+				BE8C0E981A95414300C3E024 /* Images.xcassets */,
+				BE8C0E9A1A95414300C3E024 /* LaunchScreen.xib */,
+				BE8C0EB71A95438500C3E024 /* Frameworks */,
+				BE8C0E8B1A95414300C3E024 /* Supporting Files */,
+			);
+			path = "Pull the Cord RadiusNetworks";
+			sourceTree = "<group>";
+		};
+		BE8C0E8B1A95414300C3E024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE5DEBA41AB0A29E00FAB32C /* ProximityKit.plist */,
+				BE724B6E1A9C20B400FF35DE /* trolleyLogo.jpg */,
+				BE724B6C1A9C20A000FF35DE /* busStop.png */,
+				BE8C0E8C1A95414300C3E024 /* Info.plist */,
+				BE8C0E8D1A95414300C3E024 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE8C0EA41A95414300C3E024 /* Pull the Cord RadiusNetworksTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C0EA71A95414300C3E024 /* Pull_the_Cord_RadiusNetworksTests.m */,
+				BE8C0EA51A95414300C3E024 /* Supporting Files */,
+			);
+			path = "Pull the Cord RadiusNetworksTests";
+			sourceTree = "<group>";
+		};
+		BE8C0EA51A95414300C3E024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C0EA61A95414300C3E024 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE8C0EB71A95438500C3E024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB29C51AB09A0A0040C866 /* ProximityKit.framework */,
+				BE8C0EB51A95436300C3E024 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8C0E871A95414300C3E024 /* Pull the Cord RadiusNetworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8C0EAB1A95414300C3E024 /* Build configuration list for PBXNativeTarget "Pull the Cord RadiusNetworks" */;
+			buildPhases = (
+				BE8C0E841A95414300C3E024 /* Sources */,
+				BE8C0E851A95414300C3E024 /* Frameworks */,
+				BE8C0E861A95414300C3E024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pull the Cord RadiusNetworks";
+			productName = "Pull the Cord RadiusNetworks";
+			productReference = BE8C0E881A95414300C3E024 /* Pull the Cord RadiusNetworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE8C0EA01A95414300C3E024 /* Pull the Cord RadiusNetworksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8C0EAE1A95414300C3E024 /* Build configuration list for PBXNativeTarget "Pull the Cord RadiusNetworksTests" */;
+			buildPhases = (
+				BE8C0E9D1A95414300C3E024 /* Sources */,
+				BE8C0E9E1A95414300C3E024 /* Frameworks */,
+				BE8C0E9F1A95414300C3E024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE8C0EA31A95414300C3E024 /* PBXTargetDependency */,
+			);
+			name = "Pull the Cord RadiusNetworksTests";
+			productName = "Pull the Cord RadiusNetworksTests";
+			productReference = BE8C0EA11A95414300C3E024 /* Pull the Cord RadiusNetworksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8C0E801A95414300C3E024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Grier Mobile Development";
+				TargetAttributes = {
+					BE8C0E871A95414300C3E024 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BE8C0EA01A95414300C3E024 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BE8C0E871A95414300C3E024;
+					};
+				};
+			};
+			buildConfigurationList = BE8C0E831A95414300C3E024 /* Build configuration list for PBXProject "Pull the Cord RadiusNetworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8C0E7F1A95414300C3E024;
+			productRefGroup = BE8C0E891A95414300C3E024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8C0E871A95414300C3E024 /* Pull the Cord RadiusNetworks */,
+				BE8C0EA01A95414300C3E024 /* Pull the Cord RadiusNetworksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8C0E861A95414300C3E024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE724B681A95B5E700FF35DE /* Main.storyboard in Resources */,
+				BE8C0E9C1A95414300C3E024 /* LaunchScreen.xib in Resources */,
+				BE8C0E991A95414300C3E024 /* Images.xcassets in Resources */,
+				BE724B6F1A9C20B400FF35DE /* trolleyLogo.jpg in Resources */,
+				BE724B6D1A9C20A000FF35DE /* busStop.png in Resources */,
+				BE5DEBA51AB0A29F00FAB32C /* ProximityKit.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C0E9F1A95414300C3E024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8C0E841A95414300C3E024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8C0E941A95414300C3E024 /* CHGViewController.m in Sources */,
+				BE8C0E911A95414300C3E024 /* CHGAppDelegate.m in Sources */,
+				BE8C0E8E1A95414300C3E024 /* main.m in Sources */,
+				BE724B6B1A97F89A00FF35DE /* CHGStation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C0E9D1A95414300C3E024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8C0EA81A95414300C3E024 /* Pull_the_Cord_RadiusNetworksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE8C0EA31A95414300C3E024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE8C0E871A95414300C3E024 /* Pull the Cord RadiusNetworks */;
+			targetProxy = BE8C0EA21A95414300C3E024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE8C0E9A1A95414300C3E024 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8C0E9B1A95414300C3E024 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE8C0EA91A95414300C3E024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE8C0EAA1A95414300C3E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE8C0EAC1A95414300C3E024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+				);
+				INFOPLIST_FILE = "Pull the Cord RadiusNetworks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE8C0EAD1A95414300C3E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+					"$(PROJECT_DIR)/Pull",
+					the,
+					Cord,
+					RadiusNetworks,
+				);
+				INFOPLIST_FILE = "Pull the Cord RadiusNetworks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE8C0EAF1A95414300C3E024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pull the Cord RadiusNetworksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pull the Cord RadiusNetworks.app/Pull the Cord RadiusNetworks";
+			};
+			name = Debug;
+		};
+		BE8C0EB01A95414300C3E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pull the Cord RadiusNetworksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pull the Cord RadiusNetworks.app/Pull the Cord RadiusNetworks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8C0E831A95414300C3E024 /* Build configuration list for PBXProject "Pull the Cord RadiusNetworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C0EA91A95414300C3E024 /* Debug */,
+				BE8C0EAA1A95414300C3E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8C0EAB1A95414300C3E024 /* Build configuration list for PBXNativeTarget "Pull the Cord RadiusNetworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C0EAC1A95414300C3E024 /* Debug */,
+				BE8C0EAD1A95414300C3E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8C0EAE1A95414300C3E024 /* Build configuration list for PBXNativeTarget "Pull the Cord RadiusNetworksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C0EAF1A95414300C3E024 /* Debug */,
+				BE8C0EB01A95414300C3E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8C0E801A95414300C3E024 /* Project object */;
+}
